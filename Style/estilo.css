@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+    background: rgb(236, 233, 233);
+}
+
+.logo{
+    display: block;
+    margin: auto; 
+}
+
+.menu{
+    background: rgb(191, 191, 238);
+    height: 72px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/* estilizando os menus*/
+.menu  ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+.menu ul li{
+    margin: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+.menu ul li a:hover{
+    background-color: rgb(142, 185, 185);
+}
+ 
+.descricao{
+    margin: auto;
+    width: 850px;
+    height: 1000px;
+    color: #fff;
+    
+    background-color: rgb(69, 102, 102);
+}
+
+.descricao h2{
+    margin: 15px;
+    font-size: 30px;
+
+    font-weight: 400;
+}
+
+/* inicio da página Home*/
+.testo{
+    width: 90%;
+    margin: auto;
+    margin-top: 45px;
+    font-size: 24px;
+
+    border: 1px solid #f4d5f4;
+    text-align: center;
+}
+
+
+
+/* inicio da Página de serviços*/
+.conteudo-um{
+    width: 80%;
+    height: 450px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+}
+
+.conteudo-um h3{
+   margin-top: 15px;
+   font-size: 30px;
+   font-weight: 400;
+}
+
+.img-um{
+    width: 162px;
+    height:166px;
+    
+    margin: 30px;
+}
+
+
+.text{
+    width: 90%;
+    height: 144px;
+    margin: auto;
+    border: 1px solid #f4d5f4;
+
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* inicio da segunda caiza de texto do serviço*/
+.conteudo-dois{
+    width: 80%;
+    height: 450px;
+    border: 1px solid black;
+    display: block;
+    margin: 15px auto;
+}
+
+.conteudo-dois h3{
+   margin: 25px;
+   font-size: 30px;
+   font-weight: 400;
+}
+.img-dois{
+    width: 162px;
+    height:166px;
+    
+    margin: 30px;
+}
+.text-dois{
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    border: 1px solid #f4d5f4;
+
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* inicio do roda pé*/
+footer {
+    height: 72px;
+    display: flex;
+    color: #000;
+    font-size: 20px;
+    background: rgb(191, 191, 238);
+}
